@@ -5,7 +5,7 @@ partial derivatives for given input values and print the results to two output f
 
 
 ## File Formats
-  ### Function Definition File
+  ### Function Definition File
   The function definition file have the following format:
   ```
   <input>
@@ -42,7 +42,7 @@ partial derivatives for given input values and print the results to two output f
     - subs
     - divide
     - pow
-  ### Input Values File
+  Input Values File
   The input values file have the following format:
   ```
   <input 1> <input 2> ... <input n> (names of input paramaters)
