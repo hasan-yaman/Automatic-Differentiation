@@ -7,6 +7,11 @@ partial derivatives for given input values and print the results to two output f
 ## File Formats
   ### Function Definition File
   The function definition file have the following format:
+  ```
+git status
+git add
+git commit
+```
   '''
   <input>
   <input>
