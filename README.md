@@ -8,11 +8,6 @@ partial derivatives for given input values and print the results to two output f
   ### Function Definition File
   The function definition file have the following format:
   ```
-git status
-git add
-git commit
-```
-  '''
   <input>
   <input>
   ...
@@ -22,7 +17,7 @@ git commit
   <assignment>
   ...
   <assignment>
-  '''
+  ```
   Context free grammar of the <input> ,<output> and <assignment> will be following:
   <input> -> input <var>
   <output> -> output <var>
