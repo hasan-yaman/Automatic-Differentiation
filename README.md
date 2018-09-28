@@ -28,20 +28,20 @@ partial derivatives for given input values and print the results to two output f
   ```
   where <var> is variable name and <function> is function name.
   Functions:
-    - cos
-    - sin
-    - tan
-    - acos
-    - asin
-    - atan
-    - exp
-    - log
-    - sqrt
-    - add
-    - mult
-    - subs
-    - divide
-    - pow
+    -cos
+    -sin
+    -tan
+    -acos
+    -asin
+    -atan
+    -exp
+    -log
+    -sqrt
+    -add
+    *mult
+    *subs
+    *divide
+    *pow
   Input Values File
   The input values file have the following format:
   ```
