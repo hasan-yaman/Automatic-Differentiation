@@ -17,9 +17,9 @@ partial derivatives for given input values and print the results to two output f
   <assignment>
   ...
   <assignment>
-  ```
+  
   Context free grammar of the <input> ,<output> and <assignment> will be following:
-  ```
+  
   <input> -> input <var>
   <output> -> output <var>
   <assignment> -> <var> = <function> <var> <var> (designed for functions with two parameters)
