@@ -52,6 +52,7 @@ partial derivatives for given input values and print the results to two output f
   <value 1> <value 2> ... <value n>
   ```
   For each line I calculated output of described function and partial derivatives with respect to the each input variable.
+  
   ### Output Values File
   The output values file have the following format:
   ```
@@ -60,7 +61,21 @@ partial derivatives for given input values and print the results to two output f
   <value 2>
   <value 3>
   ...
-  < output > is the name of output variable. < valuei > is the value of function with the corresponding input values given in the input values file.
+  where <output> is the name of output variable and <value> is the value of 
+  function with the corresponding input values given in the input values file.
+  ```
+  
+  ### Derivative Values File
+  The derivative values file have the following format:
+  ```
+  <deriv 1> <deriv 2> ... <deriv n>
+  <value 1> <value 2> ... <value n>
+  <value 1> <value 2> ... <value n>
+  <value 1> <value 2> ... <value n>
+  where  <deriv 1> <deriv 2> ... <deriv n>'s are the names of derivatives
+  and <value 1> <value 2> ... <value n>'s are the values of derivatives with
+  respected to corresponding variable and with the corresponding input values
+  given in the input values file.
   ```
   
     
