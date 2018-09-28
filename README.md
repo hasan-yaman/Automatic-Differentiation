@@ -1,12 +1,12 @@
 # Project Overview
 In this project, I built a program that gets four input file names. The first file will be the function definition file, 
-the second will be the input values for which the functiond and its derivative is to be calculated. I calculated function and
-partial derivatives for given input values and print the results to two output files one for value of function (third input) and one for partial derivatives(fourth input).
+the second will be the input values for which the function and its derivative is to be calculated. I calculated function and
+partial derivatives for given input values and print the results to two output files one for a value of a function (third input) and one for partial derivatives(fourth input).
 
 
 ## File Formats
   ### Function Definition File
-  The function definition file have the following format:
+  The function definition file has the following format:
   ```
   <input>
   <input>
@@ -45,16 +45,16 @@ partial derivatives for given input values and print the results to two output f
 - pow
 
   ### Input Values File
-  The input values file have the following format:
+  The input values file has the following format:
   ```
   <input 1> <input 2> ... <input n> (names of input paramaters)
   <value 1> <value 2> ... <value n> (values of corresponding paramaters)
   <value 1> <value 2> ... <value n>
   ```
-  For each line I calculated output of described function and partial derivatives with respect to the each input variable.
+  For each line, I calculated the output of the described function and partial derivatives with respect to  each input variable.
   
   ### Output Values File
-  The output values file have the following format:
+  The output values file has the following format:
   ```
   <output>
   <value 1>
@@ -66,7 +66,7 @@ partial derivatives for given input values and print the results to two output f
   ```
   
   ### Derivative Values File
-  The derivative values file have the following format:
+  The derivative values file has the following format:
   ```
   <deriv 1> <deriv 2> ... <deriv n>
   <value 1> <value 2> ... <value n>
