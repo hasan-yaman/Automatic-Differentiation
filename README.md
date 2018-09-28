@@ -19,11 +19,13 @@ partial derivatives for given input values and print the results to two output f
   <assignment>
   ```
   Context free grammar of the <input> ,<output> and <assignment> will be following:
+  ```
   <input> -> input <var>
   <output> -> output <var>
   <assignment> -> <var> = <function> <var> <var> (designed for functions with two parameters)
   <assignment> -> <var> = <function> <var>       (designed for functions with one parameter)
   <assignment> -> <var> = <var>                  (designed for assignments)
+  ```
   where <var> is variable name and <function> is function name.
   Functions:
     - cos
@@ -42,9 +44,11 @@ partial derivatives for given input values and print the results to two output f
     - pow
   ### Input Values File
   The input values file have the following format:
+  ```
   <input 1> <input 2> ... <input n> (names of input paramaters)
   <value 1> <value 2> ... <value n> (values of corresponding paramaters)
   <value 1> <value 2> ... <value n>
+  ```
   For each line I calculated output of described function and partial derivatives with respect to the each input variable.
     
     
