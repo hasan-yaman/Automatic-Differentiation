@@ -29,10 +29,10 @@ partial derivatives for given input values and print the results to two output f
   ```
   Functions:
     ```
-    - cos
-    - sin
-    - tan
-    - acos
+- cos
+- sin
+- tan
+- acos
     - asin
     - atan
     - exp
