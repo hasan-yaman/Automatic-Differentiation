@@ -25,8 +25,8 @@ partial derivatives for given input values and print the results to two output f
   <assignment> -> <var> = <function> <var> <var> (designed for functions with two parameters)
   <assignment> -> <var> = <function> <var>       (designed for functions with one parameter)
   <assignment> -> <var> = <var>                  (designed for assignments)
-  ```
   where <var> is variable name and <function> is function name.
+  ```
   Functions:
     ```
     - cos
@@ -43,7 +43,7 @@ partial derivatives for given input values and print the results to two output f
     - subs
     - divide
     - pow
-```
+    ```
   ### Input Values File
   The input values file have the following format:
   ```
